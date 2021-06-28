@@ -19,15 +19,16 @@
 	        display: block;
 	        object-fit: cover;
 	        width: 100%;
-	        height: 25vh;
+	        height: 50vh;
         }
         .page-header-icon {
-	        font-size: 6rem;
+	        font-size: 10rem;
 	        margin-bottom: 0.05rem;
+          margin-top: -10rem;
         }
 
         .page-header-icon-with-cover {
-	        margin-top: 0.1em;
+	        margin-top: -0.5em;
 	        margin-left: -0.1em;
         }
 
@@ -52,6 +53,20 @@
             color: white;
             border: black;
         }  
+        .column{
+          width: 50%;
+        }
+        .page-title{
+          margin-top: -1em;
+        }
+        .features{
+          margin-top: 2em;
+        }
+        .yt-vid{
+          margin: auto;
+          display: block;
+          
+        }
         
 
         .colorgrad {
@@ -84,7 +99,7 @@
         margin-top: -6rem;
     }
     .page-title{
-        margin-top: -1rem;
+        margin-top: -1em;
         font-size: 2.5rem;
     }
     .happy-descr{
@@ -99,15 +114,15 @@
       text-align: center;
     }
     button{
-      margin-top: 0.5rem;
+      margin-top: 2em;
     }
-	h3{
+    h3{
       margin-bottom: 1rem;
     }
     
+    
 }
     </style>
-    <link rel="stylesheet" href="discordInvite.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -124,13 +139,13 @@
     <img class="page-cover-image" src="simple-img.jpeg" style="object-position:center 50%"/>
     
     <div class="page-header-icon page-header-icon-with-cover">
-        <img class="icon" src="MarkitUpX%2005d40d3d333e4bd0ba4258a8845fd096/logo.png"/>
+        <img class="icon" src="logo.png"/>
     </div>
     <h1 class="page-title">
         <span class="colorgrad">MarkitUpX</span> Community
     </h1>
     <div class="page-body">
-        <h1 id="1949cc89-dc86-45d3-8610-faddcd20cb14" class="happy-descr">A <em>one stop shop</em> for you to meet like minded people, find opportunities and <span style="border-bottom:0.05em solid">grow</span> together in your career.📈</h1>
+        <h2 id="1949cc89-dc86-45d3-8610-faddcd20cb14" class="happy-descr">A <em>one stop shop</em> for you to meet like minded people, find opportunities and <span style="border-bottom:0.05em solid">grow</span> together in your career.📈</h1>
         
 
     </div>
@@ -139,25 +154,20 @@
     </div> -->
     <div class="text-center">
     <a href="https://discord.com/invite/SqzaqqydhN" target="_blank">
-        <button type="button" class="btn mb-2 mb-md-0 btn-dribbble">
+        <button type="button" class="btn mb-2 mb-md-0 btn-dribbble btn-xl">
             <i class="fab fa-discord fa-lg mr-1"></i>Join us on Discord
           </button>
         </a>
       </div>
-    <div class="column-list"><div class="column"><h3>🎤 Attend exclusive events</h3></div>
-    <div class="column"><h3 class="">🙋‍♂️ Ask questions &amp; get feedback</h3></div></div>
-    <div class="column-list"><div class="column"><h3>👥 Connect with experienced freelancers</h3></div>
-    <div class="column"><h3>🚀 Participate in weekly/monthly challenges</h3></div></div>
-    <div class="column-list"><div class="column"><h3>🗂 Showcase your work</h3></div>
-    <div class="column"><h3>💰 Win giveaways and prizes</h3></div></div>
+      <div class="features">
+    <div class="column-list"><div class="column"><h5>🎤 Attend exclusive events</h5></div>
+    <div class="column"><h5 class="">🙋‍♂️ Ask questions &amp; get feedback</h5></div></div>
+    <div class="column-list"><div class="column"><h5>👥 Connect with experienced freelancers</h5></div>
+    <div class="column"><h5>🚀 Participate in weekly/monthly challenges</h5></div></div>
+    <div class="column-list"><div class="column"><h5>🗂 Showcase your work</h5></div>
+    <div class="column"><h5>💰 Win giveaways and prizes</h5></div></div>
     </p></div>
-    <script src="discordInvite.js"></script>
-<script>
-  discordInvite.init({
-  inviteCode: 'SqzaqqydhN',
-  title: 'MarkitUpX',
-});
-discordInvite.render();
+  </div>
 </script>
 </body>
 </html>
